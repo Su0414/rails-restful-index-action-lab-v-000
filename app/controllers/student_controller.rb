@@ -1,5 +1,5 @@
 class StudentController < ApplicationController
   def students
-    renders index
+    renders "/students/index"
   end
 end
