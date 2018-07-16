@@ -1,6 +1,6 @@
 class StudentController < ApplicationController
   def students
-    @students = Student.all
+    @all_students = Student.all
     renders "/student/index"
   end
 end
